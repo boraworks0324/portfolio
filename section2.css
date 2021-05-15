@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+.about2-1 
+{
+    width:50%;
+    height: 1080px;
+    background-color: #b6c7d4;
+}
+
+.about2-2
+{
+    width:50%;
+    height: 1080px;
+    background-color: #5da0d4;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.about2-2>a
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 144px;
+    margin-bottom: 150px;
+    letter-spacing:-3px;
+    color: #3b5da2;
+}
+
+.wellbeing 
+{
+    margin-bottom: 101px;
+    margin-left: 144px;
+    line-height: 25px; 
+    font-size: 15px;
+    letter-spacing:-2px;
+    color: #3b5da2;
+}
+
+
+@media(max-width:1280px)
+{
+    .about2-1
+    {
+        width: 100%;
+    }
+    
+    .about2-1>img 
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .about2-2
+    {
+        width: 100%;
+        flex-direction: row;
+    }
+}

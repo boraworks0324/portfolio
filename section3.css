@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+.about3-1 
+{
+    width: 50%;
+    height: 1080px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.about3-1 >p
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 142px;
+    letter-spacing:-3px;
+    margin-bottom: 103px;
+    color: #fff;
+}
+
+.death 
+{
+    margin-bottom: 75px;    
+}
+
+.death>p
+{
+    font-size: 15px;
+    line-height: 25px;  
+    margin-left: 142px;
+    letter-spacing:-2px;
+    color: #fff;
+}
